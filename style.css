@@ -1,0 +1,164 @@
+@media only screen and (max-width: 767px) {
+
+h1 {
+    position: fixed;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+body {
+    background-color: black;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    vertical-align: middle;
+    z-index: -9;
+}
+
+.background img {
+    width:100%;
+    vertical-align: middle;
+}
+
+.mixtape img {
+    display: inline-block;
+    float:center;
+    position: fixed;
+    width: 171px;
+    height: 164px;
+    margin-left:103px;
+    margin-top:241px;
+}
+
+.decouvrir {
+    border-radius: 20px;
+    color : red;
+    background-color:#2F4F4F;
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    left: 150px;    
+    top: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    background-color : black;
+    position: fixed;
+    width:100%;
+    text-align: center;
+    bottom: 0%;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+    h1 {
+        position: fixed;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 74px;
+        line-height: 74px;
+        text-align: center;
+        color: #ffffff;
+        vertical-align: middle;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    .background {
+        position: fixed;
+        width: 100%;
+        vertical-align: middle;
+        z-index: -9;
+    }
+
+    .background img {
+        width:100%;
+        vertical-align: middle;
+    }
+
+    .mixtape {
+        display: inline-block;
+        float: center;
+        position: fixed ;
+        margin-top:330px;
+        margin-left:567px;
+    }
+    
+    .mixtape img {
+        display: inline-block;
+        float: center;
+        width: 228px;
+        height: 230px;
+        position: fixed;
+    }
+
+    .decouvrir {
+        border-radius: 20px;
+        color : red;
+        background-color:#2F4F4F;
+        position: fixed;
+        width: 150px;
+        height: 60px;
+        left: 610px;    
+        top: 520px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    footer {
+        background-color : black;
+        color : white;
+        position: fixed;
+        width:100%;
+        text-align: center;
+        bottom: 0%;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    }
+
+html {
+    display: block;
+}
+
+body {
+    display: block;
+    margin : 8px;
+}
+
+element.style {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+pre {
+    display:block;
+    font-family : monospace;
+    color : white;
+    white-space: pre;
+    margin : 1em 0px;
+}
+
+.retour {
+    display: inline-block;
+    float: right;
+}
+
+
+
